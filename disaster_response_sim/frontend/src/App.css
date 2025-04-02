@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.table-section, .map-section {
+  flex: 1;
+}
+
+.table-section h2, .map-section h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #e0e0e0;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.high-urgency {
+  background-color: #ffcccc; /* Light red for urgency > 7 */
+}
+
+.map-section {
+  max-width: 50%;
+}
