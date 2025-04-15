@@ -13,8 +13,20 @@ const icons = {
     iconAnchor: [16, 32],
     popupAnchor: [0, -32]
   }),
+  flooding: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/5809/5809490.png', // Flood icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
   water: L.icon({
     iconUrl: 'https://cdn-icons-png.flaticon.com/512/5809/5809490.png', // Same as flood
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  drown: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/1836/1836747.png', // Same as flood
     iconSize: [32, 32],
     iconAnchor: [16, 32],
     popupAnchor: [0, -32]
@@ -25,13 +37,109 @@ const icons = {
     iconAnchor: [16, 32],
     popupAnchor: [0, -32]
   }),
+  burning: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/1453/1453025.png', // Fire icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  smoke: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/1453/1453025.png', // Fire icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  wildfire: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/1453/1453025.png', // Fire icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  earthquake: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/3242/3242697.png', // Fire icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  quake: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/3242/3242697.png', // Fire icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  tremor: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/3997/3997895.png', // Fire icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  storm: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/2831/2831999.png', // Fire icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  hurricane: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/2831/2831999.png', // Fire icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  tornado: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/2831/2831999.png', // Fire icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  wind: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/2831/2831999.png', // Fire icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
   food: L.icon({
     iconUrl: 'https://cdn-icons-png.flaticon.com/512/1037/1037762.png', // Food icon
     iconSize: [32, 32],
     iconAnchor: [16, 32],
     popupAnchor: [0, -32]
   }),
+  hungry: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/1037/1037762.png', // Food icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  starving: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/1037/1037762.png', // Food icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  waterless: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/1037/1037762.png', // Food icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
   trapped: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/3208/3208247.png', // Trapped/rescue icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  stuck: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/3208/3208247.png', // Trapped/rescue icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  buried: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/3208/3208247.png', // Trapped/rescue icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  collapse: L.icon({
     iconUrl: 'https://cdn-icons-png.flaticon.com/512/3208/3208247.png', // Trapped/rescue icon
     iconSize: [32, 32],
     iconAnchor: [16, 32],
@@ -49,7 +157,43 @@ const icons = {
     iconAnchor: [16, 32],
     popupAnchor: [0, -32]
   }),
+  save: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/3208/3208247.png', // Help icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  aid: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/3208/3208247.png', // Help icon
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
   urgent: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/7596/7596805.png', // Same as help
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  now: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/7596/7596805.png', // Same as help
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  immediately: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/7596/7596805.png', // Same as help
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  asap: L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/7596/7596805.png', // Same as help
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  emergency: L.icon({
     iconUrl: 'https://cdn-icons-png.flaticon.com/512/7596/7596805.png', // Same as help
     iconSize: [32, 32],
     iconAnchor: [16, 32],
@@ -62,6 +206,12 @@ const icons = {
     popupAnchor: [0, -32]
   }),
   'send help': L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/3208/3208247.png', // Same as help
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  }),
+  'please help': L.icon({
     iconUrl: 'https://cdn-icons-png.flaticon.com/512/3208/3208247.png', // Same as help
     iconSize: [32, 32],
     iconAnchor: [16, 32],
